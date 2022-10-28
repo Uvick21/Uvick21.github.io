@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/registros.css">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+    <header class="cabeceralogo">
+        <nav id="menuprincipal">
+            <div><img src="imagenes/PrintPlus LOGO.png" alt=""></div>
+            <ul id="listamenu">
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+                <a href="#">Nosotros</a>
+                <ul>
+                    <li><a href="quienessomos.html">¿Quienes somos?</a></li> 
+                    <li><a href="mision.html">Misión</a></li>
+                    <li><a href="vision.html">Visión</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Productos</a>
+                <ul>
+                    <li><a href="producto.html">Productos 3D</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Servicios</a>
+                <ul>
+                    <li><a href="modelado.html">Modelado 3D</a></li>
+                    <li><a href="prototipos.html">Diseños de prototipos</a></li>
+                </ul>
+            </li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li>
+                <a href="iniciarsesion.html">Iniciar Sesión</a>
+            </li>
+            </ul>
+        </nav>
+        </header>
+        <div class="registro">
+            <h1>Crea tu cuenta</h1>
+            <form action="iniciarsesion.html">
+                <input type="text" name="nom" placeholder="Nombre(s)" required> <br><br>
+                    <input type="text" name="ape" placeholder="Apellidos" required> <br><br>
+                    <input type="email" name="email" placeholder="Correo electronico" required> <br><br>
+                    <input type="password" name="password" placeholder="Contraseña" required> <br><br>
+                    <input type="password" name="password" placeholder="Confirmar contraseña" required> <br><br>
+                    <input id="enviar"type="submit" name="enviar" value="Registrarse"> <br><br>
+                    <input id="restablecer"type="reset" name="restaurar" value="Restablecer">
+            </form>
+        </div>
+    </body>
+    </html>

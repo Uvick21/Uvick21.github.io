@@ -1,0 +1,40 @@
+.registro{
+    max-width: 70%;
+    margin: auto;
+}
+
+.registro form{
+width: 50%;
+margin: 5% auto 5%;
+padding: 6%;
+background-color: #8a9cc7;
+border-radius: 10px;
+text-align: center;
+}
+
+.registro input{
+    width: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    padding: 11px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border-style: outset;
+    border: 1px solid;
+}
+.registro input:hover{
+    border: 1px solid #616161a2 ;
+}
+.registro #enviar{
+    cursor: pointer;
+    background-color: #c7daf3;
+    text-transform: uppercase;
+
+}
+.registro h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
